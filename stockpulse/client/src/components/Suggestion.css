@@ -1,0 +1,123 @@
+.suggestion-card {
+  border: 1px solid var(--border-color);
+}
+
+.suggestion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.suggestion-header h5 {
+  margin-bottom: 0;
+  color: var(--dark-color);
+}
+
+.trigger-badge {
+  font-size: 0.75rem;
+}
+
+.suggestion-details {
+  margin-bottom: 1rem;
+}
+
+.price-comparison, .reorder-comparison {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.price-item, .reorder-item {
+  text-align: center;
+  flex: 1;
+}
+
+.price-label, .reorder-label {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.25rem;
+}
+
+.price-value, .reorder-value {
+  display: block;
+  font-size: 1.25rem;
+}
+
+.price-arrow, .reorder-arrow {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.suggestion-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.meta-label {
+  font-size: 0.75rem;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  margin-bottom: 0.25rem;
+}
+
+.meta-value {
+  font-size: 0.875rem;
+}
+
+.confidence-bar {
+  position: relative;
+  height: 8px;
+  background-color: var(--light-color);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.confidence-fill {
+  height: 100%;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.confidence-text {
+  position: absolute;
+  top: -1.5rem;
+  right: 0;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.suggestion-reasoning {
+  margin-top: 1rem;
+}
+
+.reasoning-toggle {
+  font-size: 0.75rem;
+}
+
+.reasoning-content {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.suggestion-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.bg-light {
+  background-color: var(--light-color);
+}

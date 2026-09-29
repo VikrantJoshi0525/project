@@ -1,0 +1,101 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+*.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+dist/
+build/
+.out/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Local environment files (React)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.db.*
+*.sqlite
+*.sqlite3
+
+# Lock files (uncomment if needed)
+# package-lock.json
+# yarn.lock
+
+# Editor backup files
+*.bak
+*.backup
+
+# System files
+.desktop
+.directory
+
+# TypeScript cache (if using TypeScript)
+*.tsbuildinfo
+
+# React/Javascript build artifacts
+.parcel-cache/
+.rpt2_cache/
+.tmp/
+
+# MongoDB (if storing locally)
+/data/db
+
+# Batch files created during development
+*.bat
+*.cmd
+
+# Certificate files (if any)
+*.pem
+*.crt
+*.key
+
+# VS Code settings (user-specific)
+.vscode/settings.json
+!.vscode/settings.default.json
+
+# JetBrains IDE
+*.iml
+*.iws
+.out/
+.idea/
+
+# Merge/rebase conflict files
+*.orig
+*.rej
